@@ -102,6 +102,7 @@ namespace Slat.API.Server
 
             student.FirstName = studentCredentials.FirstName;
             student.LastName = studentCredentials.LastName;
+            student.MatricNumber = studentCredentials.MatricNumber;
             student.Email = studentCredentials.Email;
             student.PhoneNumber = studentCredentials.PhoneNumber;
 
